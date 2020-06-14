@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    display: inline;
+    font-weight: 500;
+}
+
+.background {
+    height: 100%;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#doland {
+    background-image: url('img/nautings.png');
+    width: 256px;
+    height: 128px;
+    position: absolute;
+    bottom: 33vh;
+    right: 0px;
+}
+
+.infobox {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    background-color: rgba(20, 0, 0, 0.5);
+}
+
+.grayed {
+    color: rgb(193, 193, 193);
+    font-weight: 300;
+}
